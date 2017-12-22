@@ -1,10 +1,10 @@
 Package: APPEstimation
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: Adjusted Prediction Model Performance Estimation
+Version: 0.1
+Authors@R: person("Eisuke Inoue", "Hajime Uno", email = "eisuke.inoue@marianna-u.ac.jp", role = c("aut", "cre"))
+Description: Calculating predictive model performance measures adjusted for predictor distributions. L1 and L2 error for continuous outcome and C-statistics for binomial outcome are computed. 
 Depends: R (>= 3.4.3)
-License: What license is it under?
+Imports: densratio
+License: GPL-2
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 6.0.1
